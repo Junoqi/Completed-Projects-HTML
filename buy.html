@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+		body{
+			background-color: #30657a;
+			font-family: 'Manjari', sans-serif;
+		}
+		.topnav{
+			overflow: hidden;
+			background-color: #0e263e;
+			margin: -10px;
+			}	
+		.topnav a{
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 73.5px;
+			text-decoration: none;
+			letter-spacing: 5px 10px;
+		}
+		.topnav a:hover{
+			background-color: white;
+			color: #333;
+			transition: 0.5s;
+		}
+		.head{
+			color: white;
+			text-align: center;
+			letter-spacing: 30px;
+		}
+		@keyframes fade {
+			0% {opacity: 0;}
+			100% {opacity: 100;}
+		}
+		.appear{
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			animation-name: appear;
+			animation-duration: 2s;
+		}
+		@keyframes appear{
+			0% {opacity: 0;}
+			25% {opacity: 0;}
+			50% {opacity: 0;}
+			75% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+		a{
+			text-align: center;
+		}
+		.learnMore{
+			border: none;
+			background-color: #0e263e;
+			color: white;
+			font-size: 18px;	
+			letter-spacing: 1px;
+		}
+		.learnMore:hover{
+			background-color: white;
+			color: #0e263e;
+			transition: 0.1s;
+		}
+		.learnMore:active{
+			transform: translateY(10px)
+		}
+		.Break{
+			 height: 700px;
+		}
+		{
+			color: white;
+			text-align: center;
+			font-size: 20px;
+			
+		}
+		.buynow{
+			background-color: #0e263e;
+			font-size: 18px;
+			border: none;
+			color: white;
+		}
+		.buynow:hover{
+			background-color: white;
+			color: #0e263e;
+			transition: 0.1s;
+		}
+		.buynow:active{
+			transform: translateY(10px);
+			transiton: 0.1s;
+		}
+		.products{
+			text-align: center;
+			color: white;
+		}
+		.card{
+			 box-shadow: 0 4px 8px 0 rgb(121, 129, 134);
+			 width: 150px;
+			 background-color: #0e263e;
+			 color: white;
+			 margin-left: 25%;
+		}
+		.card:hover{
+			box-shadow: 0 16px 22px 0 rgb(121, 129, 134);
+		}
+		.card p{
+			text-align: center;
+		}
+		.card2{
+			 box-shadow: 0 4px 8px 0 rgb(121, 129, 134);
+			 width: 150px;
+			 background-color: #0e263e;
+			 color: white;
+			 margin-left: 45%;
+			 margin-top: -170px;
+		}
+		.card2:hover{
+			box-shadow: 0 16px 22px 0 rgb(121, 129, 134);
+		}
+		.card2 p{
+			text-align: center;
+		}
+		.card3{
+			 box-shadow: 0 4px 8px 0 rgb(121, 129, 134);
+			 width: 150px;
+			 background-color: #0e263e;
+			 color: white;
+			 margin-left: 65%;
+			 margin-top: -185px;
+		}
+		.card3:hover{
+			box-shadow: 0 16px 22px 0 rgb(121, 129, 134);
+		}
+		.card3 p{
+			text-align: center;
+		}
+		.popular{
+			color: orange;
+		}
+</style>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+		<title>I V Y</title>
+	</head>
+	<body>
+		<header class="head">
+			<h1>IVY</h1>
+		</header>
+		<div class="topnav">
+			<a href="IVY.html">Home</a>
+			<a href="aboutIVY.html">About</a>
+			<a href="#">Contact Us</a>
+			<a href="#">Media</a>
+			<a href="buy.html">Product</a>
+		</div>
+		<br>
+			<h2 class="products">Our Products</h2>
+				<br>
+					<div class="card" text-align: center;>
+						<div class="container">
+							<br>
+							<h4 style="text-align: center"><b>Basic Package</b></h4>
+							<p style="text-align: center">Twice a day usage</p>
+							<p>14$</p>
+							<div style="text-align: center">
+							<button class="buynow" style="font-family: 'Manjari', sans-serif">Buy Now</button>
+							</div>
+							<br>
+						</div>
+					</div>
+					<br>
+					<div class="card2" text-align: center;>
+						<div class="container2">
+							<br>
+							<h4 style="text-align: center"><b>Medium Package</b></h4>
+							<p class="popular">Most Popular!</p>
+							<p style="text-align: center">5 Times a day usage</p>
+							<p>25$</p>
+							<div style="text-align: center">
+							<button class="buynow" style="font-family: 'Manjari', sans-serif">Buy Now</button>
+							</div>
+							<br>
+						</div>
+					</div>
+					<br>
+					<div class="card3" text-align: center;>
+						<div class="container3">
+							<br>
+							<h4 style="text-align: center"><b>Advanced Package</b></h4>
+							<p style="text-align: center">Unlimited Usage</p>
+							<p>$50</p>
+							<div style="text-align: center">
+							<button class="buynow" style="font-family: 'Manjari', sans-serif">Buy Now</button>
+							</div>
+							<br>
+						</div>
+					</div>
+	</body>
+</html>
